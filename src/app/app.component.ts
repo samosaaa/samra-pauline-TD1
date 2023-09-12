@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'samra-pauline-TP1';
+
+  color = "white";
+
+  public changeColor(newColor : string){
+    console.log(newColor);
+    this.color = newColor;
+  }
 }
