@@ -14,4 +14,5 @@ export class AppComponent {
     console.log(newColor);
     this.color = newColor;
   }
+
 }

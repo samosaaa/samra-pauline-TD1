@@ -2,4 +2,10 @@
   background-color : purple;
   text-align: center;
   font-size: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: #fff; /* Couleur du texte de l'en-tête */
+  padding: 10px; /* Espacement interne pour le contenu de l'en-tête */
 }
