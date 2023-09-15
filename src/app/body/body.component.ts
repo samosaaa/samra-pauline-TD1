@@ -1,4 +1,4 @@
-import {Component, EventEmitter, Output} from '@angular/core';
+import {Component, EventEmitter, Input, Output} from '@angular/core';
 
 @Component({
   selector: 'app-body',
@@ -6,7 +6,7 @@ import {Component, EventEmitter, Output} from '@angular/core';
   styleUrls: ['./body.component.scss']
 })
 export class BodyComponent {
-
+  //@Input() squareColor:string = '';
   @Output() event= new EventEmitter();
 
   public addEvent(color:string){
